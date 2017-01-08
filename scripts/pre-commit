@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Execute mocha tests
+mocha 
+
+if [[ "$?" -gt 0 ]]; then
+  echo "Some tests did not pass. Fix your code and try again."
+fi
+
