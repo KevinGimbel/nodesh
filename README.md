@@ -18,7 +18,7 @@ To remove the script run `npm remove -g nodesh`.
 
 ### Usage
 
-See `nodes -u`
+See `nodesh -u`
 
 ```sh
 USAGE: nodesh [OPTION ["arguments"]]
